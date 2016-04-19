@@ -1,0 +1,13 @@
+
+<html><body>
+<form method="post" action="/annotated/anadir/formulario">
+{% csrf_token %}
+<table>
+<tr><td>Nombre</td>
+<td>{{ nombre }}</td></tr>
+<tr><td>Contenido</td>
+<td>{{ contenido }}</td></tr>
+</table>
+<input type="submit" value="login" />
+</form>
+</body></html>
